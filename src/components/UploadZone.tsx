@@ -150,7 +150,7 @@ export function UploadZone({ documents, onUpload, onDeleteDoc }: UploadZoneProps
 
 
 
-          <div className="grid gap-2.5">
+          <div className="flex flex-col gap-2.5 min-w-0">
 
             <AnimatePresence initial={false}>
 
@@ -170,7 +170,7 @@ export function UploadZone({ documents, onUpload, onDeleteDoc }: UploadZoneProps
 
                   transition={{ duration: 0.3, delay: index * 0.04 }}
 
-                  className="flex flex-col gap-2 p-3.5 rounded-lg bg-panel border border-line hover:border-line-strong transition-colors group"
+                  className="flex flex-col gap-2 p-3.5 rounded-lg bg-panel border border-line hover:border-line-strong transition-colors group min-w-0 overflow-hidden"
 
                 >
 
